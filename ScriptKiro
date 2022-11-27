@@ -136,6 +136,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 
 })
 
+
 openmain.Name = "openmain"
 
 openmain.Parent = ScreenGui
