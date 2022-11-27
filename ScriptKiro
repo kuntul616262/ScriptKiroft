@@ -114,7 +114,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
 
-    Title = Click The Button To Active Script",
+    Title = "Click The Button To Active Script",
 
     Text = "Credit Kiroft",
 
@@ -126,7 +126,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
 
-    Title = Click The Button To Active Script",
+    Title = "Click The Button To Active Script",
 
     Text = "Credit Kiroft",
 
