@@ -1,0 +1,177 @@
+local ScreenGui = Instance.new("ScreenGui")
+
+local main = Instance.new("Frame")
+
+local Te = Instance.new("TextButton")
+
+local close = Instance.new("TextButton")
+
+local openmain = Instance.new("Frame")
+
+local open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+
+main.Parent = ScreenGui
+
+main.BackgroundColor3 = Color3.new(0, 0, 0)
+
+main.Position = UDim2.new(0.357408851, 0, 0.390184075, 0)
+
+main.Size = UDim2.new(0, 250, 0, 80) 
+
+main.Visible = false
+
+main.Active = true
+
+main.Draggable = true
+
+Te.Name = "Te"
+
+Te.Parent = main
+
+Te.BackgroundColor3 = Color3.new(255, 255, 255)
+
+Te.Position = UDim2.new(0.542965591, 0, 0.222600907, 0)
+
+Te.Size = UDim2.new(0, 100, 0, 50)
+
+Te.Font = Enum.Font.GothamBold
+
+Te.Text = "CLICK ME"
+
+Te.TextColor3 = Color3.new(0, 0, 0)
+
+Te.TextScaled = true
+
+Te.TextSize = 5
+
+Te.TextWrapped = true
+
+Te.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/Th84T9Zb'))()
+
+end)
+
+close.Name = "close"
+
+close.Parent = main
+
+close.BackgroundColor3 = Color3.new(1, 0, 0)
+
+close.Position = UDim2.new(0.879518092, 0, 0, 0)
+
+close.Size = UDim2.new(0, 50, 0, 17) 
+
+close.Font = Enum.Font.GothamBlack
+
+close.Text = "X"
+
+close.TextColor3 = Color3.new(0, 0, 0)
+
+close.TextScaled = true
+
+close.TextSize = 14
+
+close.TextWrapped = true
+
+close.MouseButton1Down:connect(function()
+
+main.Visible = false
+
+openmain.Visible = true
+
+end)
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+
+    Title = "Sub Kiroft",
+
+    Text = "Credit Kiroft",
+
+    Duration = math.huge,
+
+    Button1 = "Ok"
+
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+
+    Title = "Sub Kiroft",
+
+    Text = "Credit Kiroft",
+
+    Duration = math.huge,
+
+    Button1 = "Ok"
+
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+
+    Title = Click The Button To Active Script",
+
+    Text = "Credit Kiroft",
+
+    Duration = math.huge,
+
+    Button1 = "Ok"
+
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+
+    Title = Click The Button To Active Script",
+
+    Text = "Credit Kiroft",
+
+    Duration = math.huge,
+
+    Button1 = "Ok"
+
+})
+
+openmain.Name = "openmain"
+
+openmain.Parent = ScreenGui
+
+openmain.BackgroundColor3 = Color3.new(1, 1, 1)
+
+openmain.Position = UDim2.new(0.0224176347, 0, 0.566470563, 0)
+
+openmain.Size = UDim2.new(0, 100, 0, 28)
+
+openmain.Active = true
+
+openmain.Draggable = true
+
+open.Name = "open"
+
+open.Parent = openmain
+
+open.BackgroundColor3 = Color3.new(255, 255, 255)
+
+open.Size = UDim2.new(0, 100, 0, 28)
+
+open.Font = Enum.Font.GothamBold
+
+open.Text = "CLICK"
+
+open.TextColor3 = Color3.new(0, 0, 0)
+
+open.TextSize = 18
+
+open.TextWrapped = true
+
+open.MouseButton1Down:connect(function()
+
+openmain.Visible = false
+
+main.Visible = true
+
+end)
